@@ -1,0 +1,33 @@
+* {
+  background-color: blanchedalmond;
+  color: brown;
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline overline;
+  margin: 15% auto;
+}
+
+h3 {
+  font-size: 23;
+  margin: 20px auto;
+}
+
+.description {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.recipelink {
+  tab-size: 16;
+  font-size: 20px;
+}
+
+img {
+  width: 60%;
+  margin: auto;
+  display: block;
+}

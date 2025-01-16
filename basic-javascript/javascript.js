@@ -59,3 +59,48 @@ let divP = document.createElement("p");
 divP.textContent = "ME TOO!";
 div.appendChild(divP);
 body.appendChild(div);
+
+//
+// Basic Array Functions
+//
+
+
+function sumOfTripledEvens(array){
+  return array
+    .filter((x) => {return x % 2 == 0;})
+    .map((x) => {return x * 3;})
+    .reduce((sum, current) => {
+      return sum + current;
+    });
+}
+
+
+//
+// Basic Objects
+//
+
+let user = {};
+user['name'] = 'John';
+user['surname'] = 'Smith';
+user['name'] = 'Pete';
+delete user['name'];
+
+function isEmpty(obj) {
+  return Object.keys(obj).length == 0;
+}
+
+function sumSalaries(salaries) {
+  let sum = 0;
+  for (key in obj) {
+    sum += salaries[key];
+  }
+  return sum;
+}
+
+function multiplyNumeric(obj) {
+  for (key in obj) {
+    if (typeof obj[key] == 'number') {
+      obj[key] *= 2;
+    }
+  }
+}

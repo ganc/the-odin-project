@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  padding: 6px;
+  margin: 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 240px;
+  height: 70px;
+  font-size: 26px;
+  color: beige;
+  background-color: slategrey;
+}
+
+.button-row {
+  display: flex;
+}
+
+button {
+  border-width: 0;
+  margin: 2px;
+  width: 70px;
+  height: 70px;
+  font-size: 22px;
+  color: beige;
+  background-color: darkolivegreen;
+}
